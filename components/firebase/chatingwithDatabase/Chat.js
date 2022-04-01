@@ -15,7 +15,6 @@ import { connect } from 'react-redux';
 import { chatData } from '../../Actions';
 
 function Chat(props) {
-
     const [messageTxt, setMessageTxt] = useState('')
     const senderId = 200;
     const receiverId = 100;

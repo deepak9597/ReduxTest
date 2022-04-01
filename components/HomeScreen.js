@@ -17,9 +17,9 @@ function HomeScreen(props) {
     return (
         <View style={styles.container}>
             <Text style={styles.text}>{props.counters.value}</Text>
-            <Button title='incrment value' onPress={() => props.incrment()} />
+            <Button title='incrment value two branch' onPress={() => props.incrment()} />
             <Button title='decrment value' onPress={() => props.decrment()} />
-            <Text style={styles.text}>You have {props.items.current.length} items.</Text>
+            <Text style={styles.text}>You have {props.items.current.length} items</Text>
             {props.items.current.map((item, index) => (
                 <View>
                     <Text key={item} style={styles.text}>{item}</Text>
