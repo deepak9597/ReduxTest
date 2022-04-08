@@ -5,7 +5,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import { checkPluginState } from 'react-native-reanimated/src/reanimated2/core';
 import { NavigationContainer } from '@react-navigation/native';
 
-function HomeScreen({ navigation }) {
+function Preference({ navigation }) {
     const [index, setIndex] = useState();
 
     const check = () => {
@@ -171,4 +171,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default HomeScreen;
+export default Preference;

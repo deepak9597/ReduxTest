@@ -16,7 +16,7 @@ function App() {
     <NavigationContainer onReady={() => RNBootSplash.hide()}>
       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }} />
-        <Stack.Screen name="Preference" component={Preference} options={{ headerShown: false }} />
+        <Stack.Screen name="Item" component={ItemsScreen} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>
   );
