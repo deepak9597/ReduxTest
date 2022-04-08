@@ -1,6 +1,7 @@
 package com.reduxtest;
 
 import com.facebook.react.ReactActivity;
+import com.zoontek.rnbootsplash.RNBootSplash;
 
 public class MainActivity extends ReactActivity {
 
@@ -9,6 +10,10 @@ public class MainActivity extends ReactActivity {
    * rendering of the component.
    */
   @Override
+  protected void loadApp(String appKey) {
+      RNBootSplash.init(getPlainActivity()); // <- initialize the splash screen
+      super.loadApp(appKey);
+    }
   protected String getMainComponentName() {
     return "ReduxTest";
   }
