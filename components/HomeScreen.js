@@ -28,7 +28,7 @@ function HomeScreen({ navigation }) {
     return (
         <View style={styles.root}>
             <View style={styles.topView}>
-
+                <Text> some change </Text>
                 <SwiperFlatList
                     showPagination
                     paginationStyleItemActive={styles.activedotstyle}
