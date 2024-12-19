@@ -34,7 +34,7 @@
     "@reduxjs/toolkit": "^1.8.0",
     "@types/react-redux": "^7.1.23",
     "axios": "^0.26.1",
-    "firebase": "^9.6.10",
+    "firebase": "^10.9.0",
     "moment": "^2.29.1",
     "react": "17.0.2",
     "react-native": "0.67.4",
